@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.gameTitle{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 0;
+	left: 720px;
+}
+
+
+
+.Player1{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	left: 270px;
+}
+
+.Board{
+	display: grid;
+	grid-template-columns:  60px 60px 60px 60px 60px 60px 60px 60px 60px;
+	grid-auto-rows: 59px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+.Board > button{
+	padding:10px;
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid black;
+
+}
+
+
+.Captured1{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	bottom: 75px;
+	left: 175px;
+}
+
+
+.Player2{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: 50px;
+	right: 270px;
+}
+
+.Board2{
+	display: grid;
+	grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+	grid-auto-rows: 59px;
+	position: absolute;
+	top: 100px;
+	right: 50px;
+}
+
+.Board2 > button{
+	padding:10px;
+	font-size: 30px;
+	text-align: center;
+	border: 3px solid black;
+}
+
+
+.Captured2{
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	bottom: 75px;
+	right: 175px;
+}
